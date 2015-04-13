@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g   -shared -Wl,-soname,libgrid.so -o libgrid.so CMakeFiles/grid.dir/src/grid.cpp.o 

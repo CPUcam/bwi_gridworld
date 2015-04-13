@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../grid/include/grid/Agent.h
+string
+-
+vector
+-
+
+../include/agent/RandomAgent.h
+grid/Agent.h
+../include/agent/grid/Agent.h
+
+/v/filer4b/v38q001/raul/bwi_gridworld/agent/src/RandomAgent.cpp
+agent/RandomAgent.h
+/v/filer4b/v38q001/raul/bwi_gridworld/agent/src/agent/RandomAgent.h
+cstdlib
+-
+
