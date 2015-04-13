@@ -8,6 +8,7 @@ set (GRID_LOCATION ../grid)
 
 include_directories(${GRID_LOCATION}/include include)
 
-add_library(agent SHARED src/RandomAgent.cpp)
+add_library(agent SHARED src/rAgent.cpp)
+
  
  

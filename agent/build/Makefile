@@ -114,29 +114,29 @@ agent/fast:
 	$(MAKE) -f CMakeFiles/agent.dir/build.make CMakeFiles/agent.dir/build
 .PHONY : agent/fast
 
-src/RandomAgent.o: src/RandomAgent.cpp.o
-.PHONY : src/RandomAgent.o
+src/rAgent.o: src/rAgent.cpp.o
+.PHONY : src/rAgent.o
 
 # target to build an object file
-src/RandomAgent.cpp.o:
-	$(MAKE) -f CMakeFiles/agent.dir/build.make CMakeFiles/agent.dir/src/RandomAgent.cpp.o
-.PHONY : src/RandomAgent.cpp.o
+src/rAgent.cpp.o:
+	$(MAKE) -f CMakeFiles/agent.dir/build.make CMakeFiles/agent.dir/src/rAgent.cpp.o
+.PHONY : src/rAgent.cpp.o
 
-src/RandomAgent.i: src/RandomAgent.cpp.i
-.PHONY : src/RandomAgent.i
+src/rAgent.i: src/rAgent.cpp.i
+.PHONY : src/rAgent.i
 
 # target to preprocess a source file
-src/RandomAgent.cpp.i:
-	$(MAKE) -f CMakeFiles/agent.dir/build.make CMakeFiles/agent.dir/src/RandomAgent.cpp.i
-.PHONY : src/RandomAgent.cpp.i
+src/rAgent.cpp.i:
+	$(MAKE) -f CMakeFiles/agent.dir/build.make CMakeFiles/agent.dir/src/rAgent.cpp.i
+.PHONY : src/rAgent.cpp.i
 
-src/RandomAgent.s: src/RandomAgent.cpp.s
-.PHONY : src/RandomAgent.s
+src/rAgent.s: src/rAgent.cpp.s
+.PHONY : src/rAgent.s
 
 # target to generate assembly for a file
-src/RandomAgent.cpp.s:
-	$(MAKE) -f CMakeFiles/agent.dir/build.make CMakeFiles/agent.dir/src/RandomAgent.cpp.s
-.PHONY : src/RandomAgent.cpp.s
+src/rAgent.cpp.s:
+	$(MAKE) -f CMakeFiles/agent.dir/build.make CMakeFiles/agent.dir/src/rAgent.cpp.s
+.PHONY : src/rAgent.cpp.s
 
 # Help Target
 help:
@@ -147,9 +147,9 @@ help:
 	@echo "... agent"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... src/RandomAgent.o"
-	@echo "... src/RandomAgent.i"
-	@echo "... src/RandomAgent.s"
+	@echo "... src/rAgent.o"
+	@echo "... src/rAgent.i"
+	@echo "... src/rAgent.s"
 .PHONY : help
 
 

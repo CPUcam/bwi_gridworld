@@ -5,7 +5,9 @@
 //Max's probabilistic agent - codename 007
 
 bwi_gridworld::Agent* rAgent::clone(int ) {
-    return new RandomAgent(); //random agents don't use ids because they all do the same thing
+    for(int i=0; i<4; i++) {
+    	return new rAgent(); 
+	}
 }
 
 char rAgent::nextAction(const bwi_gridworld::Pos& currentPos) {

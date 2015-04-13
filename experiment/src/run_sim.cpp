@@ -16,7 +16,7 @@ using namespace bwi_gridworld;
 int main(int argc, char *argv[]){
 	std::srand(time(0)); //seeds random number generator with the current time
  	
-  Grid grid(new rAgent::RandomAgent());
+  Grid grid(new rAgent());
 	
   grid.runExperiments();
   

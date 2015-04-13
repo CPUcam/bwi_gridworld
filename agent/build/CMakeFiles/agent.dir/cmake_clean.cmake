@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/agent.dir/src/RandomAgent.cpp.o"
+  "CMakeFiles/agent.dir/src/rAgent.cpp.o"
   "libagent.pdb"
   "libagent.so"
 )
