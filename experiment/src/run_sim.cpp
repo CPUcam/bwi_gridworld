@@ -9,14 +9,14 @@
 *
 */
 
-#include "agent/RandomAgent.h"
+#include "agent/rAgent.h"
 
 using namespace bwi_gridworld;
 
 int main(int argc, char *argv[]){
 	std::srand(time(0)); //seeds random number generator with the current time
  	
-  Grid grid(new RandomAgent());
+  Grid grid(new rAgent::RandomAgent());
 	
   grid.runExperiments();
   

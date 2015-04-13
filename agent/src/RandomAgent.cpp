@@ -14,9 +14,9 @@ char RandomAgent::nextAction(const bwi_gridworld::Pos& currentPos) {
     // std::cout << "move: " << move << std::endl;
     switch(move) {
         case 0 : return 'n'; break;
-        case 1 : return 's'; break;
-        case 2 : return 'e'; break;
-        case 3 : return 'w'; break;
+        case 1 : return 'n'; break;
+        case 2 : return 's'; break;
+        case 3 : return 's'; break;
       }
 }
 
