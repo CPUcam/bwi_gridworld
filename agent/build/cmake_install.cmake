@@ -1,4 +1,4 @@
-# Install script for directory: /v/filer4b/v38q001/raul/bwi_gridworld/agent
+# Install script for directory: /u/raul/bwi_gridworld/agent
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/v/filer4b/v38q001/raul/bwi_gridworld/agent/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/u/raul/bwi_gridworld/agent/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/v/filer4b/v38q001/raul/bwi_gridworld/agent/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/u/raul/bwi_gridworld/agent/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)
